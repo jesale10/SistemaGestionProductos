@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .sidebar {
+    width: 250px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  
+  #logo {
+    height: 150px;
+    width: auto; /* correct proportions to specified height */
+    border-radius: 50%; /* makes it a circle */
+  }
+
+  
+  .main {
+    margin-left: 250px;
+  }
+  
