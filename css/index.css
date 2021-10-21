@@ -36,14 +36,13 @@ body {
 .text-over-image {
   position: absolute; /* posición absolute con respecto al padre */
   bottom: 82%; /* posicionada en la esquina inferior derecha */
-  left: 250px;
+  justify-content: center;
 }
 
 #welcome {
   background: rgba(0,0,0,.6);
   color: #fff;
   font-family:"Lucida Handwriting", cursive;
-  padding-left: 22%;
 }
 
 .main {

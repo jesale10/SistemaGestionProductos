@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Inicio</title>
+  <title>Entregar Pedido</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="../css/entregar-pedidos.css">
 
   <!-- Page Icon -->
-  <link rel="shortcut icon" href="img/logo.png">
+  <link rel="shortcut icon" href="../img/logo.png">
 
 </head>
 
@@ -60,18 +60,6 @@
           </a>
         </li>
         <li class="nav-item mb-2">
-          <a href="agregar-productos.php" class="nav-link link-dark">
-          <i class="bi bi-bag-plus"></i>
-            Agregar Productos
-          </a>
-        </li>
-        <li class="nav-item mb-2">
-          <a href="quitar-productos.php" class="nav-link link-dark">
-          <i class="bi bi-bag-dash"></i>
-            Quitar Productos
-          </a>
-        </li>
-        <li class="nav-item mb-2">
           <a href="pedidos.php" class="nav-link link-dark">
           <i class="bi bi-clipboard"></i>
             Pedidos
@@ -92,13 +80,6 @@
         Página para entregar los pedidos
     </p>
   </section>
-
-  <!-- (Optional) - Place this js code after initializing bootstrap.min.js or bootstrap.bundle.min.js -->
-  <script>
-    var triggerEl = document.querySelector('#navId a')
-    bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
-  </script>
-
 
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

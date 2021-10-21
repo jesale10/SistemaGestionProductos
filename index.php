@@ -60,18 +60,6 @@
           </a>
         </li>
         <li class="nav-item mb-2">
-          <a href="php/agregar-productos.php" class="nav-link link-dark">
-          <i class="bi bi-bag-plus"></i>
-            Agregar Productos
-          </a>
-        </li>
-        <li class="nav-item mb-2">
-          <a href="php/quitar-productos.php" class="nav-link link-dark">
-          <i class="bi bi-bag-dash"></i>
-            Quitar Productos
-          </a>
-        </li>
-        <li class="nav-item mb-2">
           <a href="php/pedidos.php" class="nav-link link-dark">
           <i class="bi bi-clipboard"></i>
             Pedidos
@@ -92,7 +80,7 @@
       <img id="inicio" class="img-fluid" src="img/inicio.jpeg">
     </a>
     <div class="text-over-image" style="width: 100%;">
-      <p class="display-1 welcome" id="welcome">
+      <p class="display-1 welcome" id="welcome" style="padding-left: 22%;">
         <strong>Bienvenido</strong>
       </p>
     </div>
