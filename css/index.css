@@ -16,7 +16,7 @@ body {
 }
 
 .sidebar {
-  width: 250px;
+  width: 230px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -28,23 +28,22 @@ body {
   border-radius: 50%; /* makes it a circle */
 }
 
-#inicio {
-    position: relative;    /* para poder posicionar el texto de forma absoluta */
-    display: inline-block; /* para que solo ocupe el ancho de la imagen */
-}
-
-.text-over-image {
-  position: absolute; /* posición absolute con respecto al padre */
-  bottom: 82%; /* posicionada en la esquina inferior derecha */
-  justify-content: center;
-}
-
-#welcome {
-  background: rgba(0,0,0,.6);
-  color: #fff;
-  font-family:"Lucida Handwriting", cursive;
-}
-
 .main {
-  margin-left: 250px;
+  margin-left: 230px;
+}
+
+.bg-img {
+  background-image: url("../img/inicio.jpeg");
+  background-position: center;
+  background-size: auto;
+}
+
+.container {
+  padding-top: 25%;
+  width: 100%;
+}
+
+.bg-text {
+  background-color: #f8f9fa;
+  opacity: 1;
 }

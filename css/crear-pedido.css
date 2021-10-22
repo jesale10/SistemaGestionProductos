@@ -16,7 +16,7 @@
   }
   
   .sidebar {
-    width: 250px;
+    width: 230px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -30,6 +30,6 @@
 
   
   .main {
-    margin-left: 250px;
+    margin-left: 230px;
   }
   
